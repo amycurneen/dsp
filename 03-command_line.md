@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd (show current working directory path)
+* mkdir Hello (creating a directory)
+* rm -r Hello (deleting a directory)
+* touch Hello.txt (creating a file using `touch` command)
+* rm Hello.txt (deleting a file)
+* mv Hello.txt Hello_new.txt (renaming a file)
+* ls -a (listing hidden files)
+* cp Hello.txt New_Hello (copying a file from one directory to another)
+* cat Hello.txt (outputs the contents of file to terminal)
+* cat Hello_English.txt >> Hello_Languages.txt (Appends output to a file)
 
 ---
 
@@ -35,7 +44,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls` (Lists files and folders in working directory)
+
+`ls -a` (Lists files and folders in working directory including hidden ones starting with a dot) 
+
+`ls -l` (Lists files and folders in working directory in long format - Table output) 
+
+`ls -lh` (Lists files and folders in working directory) 
+
+`ls -lah` (Lists files and folders in working directory) 
+
+`ls -t` (Lists files and folders in working directory, ordered by modified date) 
+
+`ls -Glp` (Lists files and folders in working directory)
 
 ---
 
@@ -52,6 +73,3 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
