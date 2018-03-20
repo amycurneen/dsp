@@ -50,13 +50,13 @@ What do the following commands do:
 
 `ls -l` (Lists files and folders in working directory in long format - Table output) 
 
-`ls -lh` (Lists files and folders in working directory) 
+`ls -lh` (Lists files and folders in working directory in long format - Table output with print sizes in human readable format) 
 
-`ls -lah` (Lists files and folders in working directory) 
+`ls -lah` (Lists files and folders in working directory in long format - Table output with print sizes in human readable format including hidden files and folders starting with a dot)
 
 `ls -t` (Lists files and folders in working directory, ordered by modified date) 
 
-`ls -Glp` (Lists files and folders in working directory)
+`ls -Glp` (Lists files and folders in working directory in long format - Table output with a slash after each directory, not displaying group)
 
 ---
 
@@ -64,7 +64,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -R` (Lists files and folders in working directory and subdirectories)
+
+`ls -q` (Lists files and folders in working directory with non-printing characters as a ?)
+
+`ls -1` (Lists files and folders in working directory with each entry on one line)
+
+`ls -d` (Lists only directories in working directory)
+
+`ls -c` (Lists files and folders in working directory by file timestamp)
 
 ---
 
@@ -72,4 +80,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` is a command in Unix which builds and executes command lines from a standard input.
+
+Ex:
+
+`echo 'Hello1 Hello2 Hello3' | xargs mkdir`
+
+`ls`
+
+`Hello1 Hello2 Hello3`
+
+`xargs` allows mkdir to use a standard input to create directories
