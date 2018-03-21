@@ -139,3 +139,4 @@ To get a complete understanding of `git`, you should read [Pro Git](http://git-s
  
 
 >> Modified using nano text editor
+>> Modified using edit in browser
